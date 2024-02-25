@@ -30,5 +30,5 @@ def main(email_list):
         writer.writerows(results)
 
 if __name__ == "__main__":
-    email_list = ["exemple1@email.com", "exemple2@email.com", "exemple3@email.com"]
+    email_list = ["exemple1@email.com", "exemple2@email.com", "exemple3@email.com"] 
     main(email_list)

@@ -50,9 +50,7 @@ def check_doctolib_registration(driver, email):
     current_url = driver.current_url
     if current_url == "https://www.doctolib.fr/account/marketing_consent/new":
         result = "False"
-        print("ok")
     else:
-        print("nonn")
         span_element = driver.find_element(By.CSS_SELECTOR, "span.dl-text-body.dl-text-regular.dl-text-s")
         text_recup = span_element.text
         
